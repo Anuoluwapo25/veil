@@ -1,0 +1,22 @@
+{
+  "name": "veil",
+  "version": "0.1.0",
+  "description": "A privacy shield for AI coding agents: finds secrets and personal data (including Nigerian BVN, NIN, NUBAN and phone numbers) and swaps them for reversible placeholders before they leave your machine.",
+  "type": "module",
+  "bin": {
+    "veil": "./src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test 'test/**/*.test.ts'",
+    "typecheck": "tsc",
+    "check": "npm run typecheck && npm test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "5.9.3"
+  }
+}
