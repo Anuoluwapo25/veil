@@ -1,0 +1,6 @@
+Ticket #4821 — refund failed
+Customer: Ada Obi <ada.obi@gmail.com>, phone +234 803 123 4567
+BVN: 22123456789
+Refund to GTBank 0123456785.
+Debug: DB_PASSWORD=correct-horse-battery
+Order total 48213377190 kobo, ref dev@example.com
